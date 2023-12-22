@@ -1,4 +1,4 @@
-# Spring Autoconfigure
+# Spring Extract PDF pages
 
 Java implementation to extract all pages from pdf files and convert to jpg images.
 
