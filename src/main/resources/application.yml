@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  servlet:
+    contextPath: /
+app:
+  documentation:
+    name: Spring Autoconfigure
+    version: 0.0.1
