@@ -20,7 +20,7 @@ mvn install
 mvn clean package -f pom.xml -U
 docker build . -t spring-extract-pdf-pages-example:latest
 docker create --name spring-extract-pdf-pages-example --network your-network --ip x.x.x.x --restart unless-stopped spring-extract-pdf-pages-example:latest bash
-docker start tycho-sentence
+docker start spring-extract-pdf-pages-example
 ```
 
 ## Usage
