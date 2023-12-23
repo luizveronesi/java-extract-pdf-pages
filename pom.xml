@@ -13,7 +13,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.4</version>
+		<version>2.7.18</version>
 	</parent>
 
 	<properties>
@@ -27,7 +27,6 @@
 		<commons.io.version>2.15.1</commons.io.version>
 		<springdoc.version>1.6.13</springdoc.version>
 		<pdfbox.version>2.0.24</pdfbox.version>
-
 	</properties>
 
 	<dependencies>

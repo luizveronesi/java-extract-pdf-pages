@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import dev.luizveronesi.pdfextract.controller.documentation.UploadControllerDocumentation;
 import dev.luizveronesi.pdfextract.model.UploadRequest;
 import dev.luizveronesi.pdfextract.model.UploadResponse;
 import dev.luizveronesi.pdfextract.service.UploadService;
@@ -13,7 +14,7 @@ import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequiredArgsConstructor
-public class UploadController {
+public class UploadController implements UploadControllerDocumentation {
 
     private final UploadService uploadService;
 

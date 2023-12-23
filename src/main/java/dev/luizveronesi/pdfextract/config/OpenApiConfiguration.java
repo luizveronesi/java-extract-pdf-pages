@@ -1,4 +1,4 @@
-package dev.luizveronesi.pdfextract.controller.configuration;
+package dev.luizveronesi.pdfextract.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

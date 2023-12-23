@@ -4,5 +4,5 @@ server:
     contextPath: /
 app:
   documentation:
-    name: Spring Autoconfigure
+    name: Spring Extract PDF Pages
     version: 0.0.1

@@ -32,7 +32,6 @@ public class UploadService {
 				.build();
 	}
 
-	@SuppressWarnings("null")
 	private void validate(UploadRequest request) {
 		if (StringUtils.isEmpty(request.getFolder())
 				|| request.getFile().isEmpty()
