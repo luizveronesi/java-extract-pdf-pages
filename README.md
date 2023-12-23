@@ -34,7 +34,7 @@ Open Swagger: http://localhost:8080/swagger-ui/index.html
 
 ## Configuration
 
-Add configuration
+You can change the max file size at scr/main/resources/application.properties
 
 ## Endpoint
 
